@@ -21,15 +21,16 @@ h1 {
     margin-bottom: 20px;
     font-size: $Font-size-H1;
     color: $Purple-100;
+    
+}
 
-    .Gold {
-        color: $Yellow-500;
-        
-    }
+.Gold {
+    color: $Yellow-500;
+    
+}
 
-    .Italic {
-        font-family: DM Sans Italic;
-    }
+.Italic {
+    font-family: DM Sans Italic;
 }
 
 h2 {
@@ -77,6 +78,19 @@ p {
     @extend.card-container;
 }
 
+.card-container-6 {
+    @extend.card-container;
+    align-items: start;
+    h1, p {
+        color: $Black;
+        text-align: left;
+    }
+}
+
+.card-container-7 {
+    @extend.card-container;
+}
+
 
 
 .first {
@@ -116,4 +130,17 @@ p {
         padding: 17px;
         font-size: 1.5rem;
     }
+}
+
+.sixth {
+    background-color: $White;
+    img {
+       
+        
+        width: 60%;
+    }
+}
+
+.seven {
+    background-color: $Yellow-100;
 }

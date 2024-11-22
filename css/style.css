@@ -42,10 +42,12 @@ h1 {
   font-size: 2.85rem;
   color: hsl(254, 88%, 90%);
 }
-h1 .Gold {
+
+.Gold {
   color: hsl(39, 100%, 71%);
 }
-h1 .Italic {
+
+.Italic {
   font-family: DM Sans Italic;
 }
 
@@ -59,7 +61,7 @@ p {
   color: hsl(254, 88%, 90%);
 }
 
-.card-container, .card-container-5, .card-container-4, .card-container-2, .card-container-3 {
+.card-container, .card-container-7, .card-container-6, .card-container-5, .card-container-4, .card-container-2, .card-container-3 {
   padding: 2.85rem 40px;
   display: flex;
   flex-direction: column;
@@ -84,6 +86,14 @@ p {
 }
 .card-container-4 p {
   color: hsl(0, 0%, 7%);
+}
+
+.card-container-6 {
+  align-items: start;
+}
+.card-container-6 h1, .card-container-6 p {
+  color: hsl(0, 0%, 7%);
+  text-align: left;
 }
 
 .first {
@@ -118,4 +128,15 @@ p {
 .fifth h1 {
   padding: 17px;
   font-size: 1.5rem;
+}
+
+.sixth {
+  background-color: hsl(0, 0%, 100%);
+}
+.sixth img {
+  width: 60%;
+}
+
+.seven {
+  background-color: hsl(31, 66%, 93%);
 }/*# sourceMappingURL=style.css.map */
