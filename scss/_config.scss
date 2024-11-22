@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "DM Sans";
+    src: url("/assets/fonts/DMSans-VariableFont_opsz\,wght.ttf")
+}
+
+@font-face {
+    font-family: "DM Sans Italic";
+    src: url("/assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf");
+}
+
+
+//Font
+$Family: DM Sans;
+$Weights: 400, 500;
+
+// Colors
+
+$Purple-100: hsl(254, 88%, 90%);
+$Purple-500: hsl(256, 67%, 59%);
+
+$Yellow-100: hsl(31, 66%, 93%);
+$Yellow-500: hsl(39, 100%, 71%);
+
+$White: hsl(0, 0%, 100%);
+$Black: hsl(0, 0%, 7%);
+
+//Font-sizes
+
+$Font-size-paragraph: 18px;
+$Font-size-H1: 2.85rem;

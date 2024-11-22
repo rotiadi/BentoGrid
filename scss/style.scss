@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import 'config';
+@import 'card';
+
+.main-container {
+    margin: 32px 16px;
+    background-color: lightblue;
+}
+
+img {
+    width: 80%;    
+}
+
+p2 {
+    font-size: x-large;
+}
+
+.card-container {        
+    padding: 2.85rem 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.card-container-2 {
+    @extend .card-container;
+    padding: 20px;
+    align-items: start;
+    gap: 20px;
+}
+
+.card-container-3 {
+    @extend .card-container-2;
+    padding: 20px 20px 0px 20px;
+    align-items: start;
+    gap: 20px;
+}
+
+.first {
+    background-color: $Purple-500;    
+    color: $Purple-100;
+    
+    h1 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: $Font-size-H1;
+
+        .Gold {
+            color: $Yellow-500;
+            
+        }
+
+        .Italic {
+            font-family: DM Sans Italic;
+        }
+    }
+
+   
+}
+
+.second {
+    background-color: $White;
+    
+    img {
+        width: 100%;
+    }
+}
+
+.third {
+    background-color: $Yellow-500;
+
+    img {
+        padding: 0;
+    }
+}
