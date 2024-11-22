@@ -29,18 +29,37 @@
 
 .main-container {
   margin: 32px 16px;
-  background-color: lightblue;
 }
 
 img {
   width: 80%;
 }
 
-p2 {
+h1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.85rem;
+  color: hsl(254, 88%, 90%);
+}
+h1 .Gold {
+  color: hsl(39, 100%, 71%);
+}
+h1 .Italic {
+  font-family: DM Sans Italic;
+}
+
+h2 {
   font-size: x-large;
 }
 
-.card-container, .card-container-2, .card-container-3 {
+p {
+  font-size: 19px;
+  text-align: center;
+  color: hsl(254, 88%, 90%);
+}
+
+.card-container, .card-container-5, .card-container-4, .card-container-2, .card-container-3 {
   padding: 2.85rem 40px;
   display: flex;
   flex-direction: column;
@@ -60,21 +79,15 @@ p2 {
   gap: 20px;
 }
 
+.card-container-4 {
+  padding: 20px;
+}
+.card-container-4 p {
+  color: hsl(0, 0%, 7%);
+}
+
 .first {
   background-color: hsl(256, 67%, 59%);
-  color: hsl(254, 88%, 90%);
-}
-.first h1 {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 2.85rem;
-}
-.first h1 .Gold {
-  color: hsl(39, 100%, 71%);
-}
-.first h1 .Italic {
-  font-family: DM Sans Italic;
 }
 
 .second {
@@ -89,4 +102,20 @@ p2 {
 }
 .third img {
   padding: 0;
+}
+
+.fourth {
+  background-color: hsl(254, 88%, 90%);
+}
+.fourth img {
+  width: 100%;
+  margin: 20px;
+}
+
+.fifth {
+  background-color: hsl(256, 67%, 59%);
+}
+.fifth h1 {
+  padding: 17px;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */

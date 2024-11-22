@@ -9,15 +9,37 @@
 
 .main-container {
     margin: 32px 16px;
-    background-color: lightblue;
 }
 
 img {
     width: 80%;    
 }
 
-p2 {
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: $Font-size-H1;
+    color: $Purple-100;
+
+    .Gold {
+        color: $Yellow-500;
+        
+    }
+
+    .Italic {
+        font-family: DM Sans Italic;
+    }
+}
+
+h2 {
     font-size: x-large;
+}
+
+p {
+    font-size: $Font-size-paragraph;
+    text-align: center;
+    color: $Purple-100;
 }
 
 .card-container {        
@@ -42,27 +64,24 @@ p2 {
     gap: 20px;
 }
 
+.card-container-4 {
+    @extend .card-container;
+    padding: 20px;
+
+    p {
+        color: $Black;
+    }
+}
+
+.card-container-5 {
+    @extend.card-container;
+}
+
+
+
 .first {
     background-color: $Purple-500;    
-    color: $Purple-100;
     
-    h1 {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 20px;
-        font-size: $Font-size-H1;
-
-        .Gold {
-            color: $Yellow-500;
-            
-        }
-
-        .Italic {
-            font-family: DM Sans Italic;
-        }
-    }
-
-   
 }
 
 .second {
@@ -78,5 +97,23 @@ p2 {
 
     img {
         padding: 0;
+    }
+}
+
+.fourth {
+    background-color: $Purple-100;
+
+    img {
+        width: 100%;
+        margin: 20px;
+    }
+}
+
+.fifth {
+    background-color: $Purple-500;
+
+    h1 {
+        padding: 17px;
+        font-size: 1.5rem;
     }
 }
