@@ -89,8 +89,13 @@ p {
 
 .card-container-7 {
     @extend.card-container;
+    align-items: start;
 }
 
+.card-container-8 {
+    @extend.card-container;
+    align-items: start;
+}
 
 
 .first {
@@ -135,12 +140,28 @@ p {
 .sixth {
     background-color: $White;
     img {
-       
-        
+        margin-top: 20px;      
         width: 60%;
     }
 }
 
 .seven {
     background-color: $Yellow-100;
+
+    .Italic {
+        color: $Purple-500;
+    }
+
+    img {
+        margin-top: 20px; 
+    }
+    
+}
+
+.eigth{
+    background-color: $Yellow-500;
+
+    img {
+        margin-top: 20px;
+    }
 }
